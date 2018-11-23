@@ -1,0 +1,11 @@
+CREATE TABLE APPLICATION_TYPE 
+   (	ID NUMBER(38,0) NOT NULL ENABLE, 
+	NAME VARCHAR2(100 BYTE) NOT NULL ENABLE
+   ) ;
+   
+Insert into APPLICATION_TYPE (ID,NAME) values (1,'CAP');
+Insert into APPLICATION_TYPE (ID,NAME) values (2,'LIURP');
+Insert into APPLICATION_TYPE (ID,NAME) values (3,'OPSHARE');
+commit;
+   
+ select * from   APPLICATION_TYPE;
