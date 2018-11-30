@@ -13,6 +13,8 @@
 	<c:forEach items="${applicationTypes}" var="applicationType">
    		 ${applicationType.name} , ${applicationType.id}
 		</c:forEach>
-	<a href="/omniFrontDesk/hello1">a click here to see next page</a>
+		
+		<a href="/omniFrontDesk/hello">a click here to go back</a>
+
 </body>
 </html>
